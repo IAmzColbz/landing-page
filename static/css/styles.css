@@ -8,7 +8,6 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    line-height: 1.5;
 }
 
 main {
@@ -135,7 +134,24 @@ ul {
 }
 
 .sec-3 {
+    display: flex;
+    justify-content: center;
     background-color: #e5e7eb
+}
+
+.sec-3-container {
+    max-width: 800px;
+    margin: 100px;
+}
+
+.sec-3-container p {
+    font-size: 36px;
+    font-style: italic;
+    color:#1f2937
+}
+
+.sec-3-container h3 {
+    text-align: right;
 }
 
 footer {
