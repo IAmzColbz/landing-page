@@ -108,7 +108,7 @@ ul {
 
 .sec-2-container {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     flex-wrap: wrap;
     max-width: 1200px;
@@ -148,7 +148,7 @@ ul {
 }
 
 .sec-3-container p {
-    font-size: 36px;
+    font-size: 30px;
     font-style: italic;
     color: #1f2937;
 }
@@ -204,6 +204,7 @@ footer p {
     padding: 8px 24px 8px;
     border: none;
     flex-shrink: 0;
+    cursor: pointer;
 }
 
 a {
