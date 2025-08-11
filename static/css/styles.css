@@ -55,6 +55,7 @@ ul {
     display: flex;
     justify-content: center;
     background-color: #1f2937;
+    
 }
 
 .sec-1-container {
@@ -143,19 +144,26 @@ ul {
 }
 
 .sec-3-container {
-    max-width: 800px;
+    display: flex;
+    max-width: 1200px;
     margin: 100px;
-}
-
-.sec-3-container p {
-    font-size: 30px;
-    font-style: italic;
-    color: #1f2937;
+    flex-wrap: wrap;
 }
 
 .sec-3-container h3 {
-    text-align: right;
+    text-align: center;
+    align-self: center;
+    flex: 1;
+    color: #1f2937;
+    font-size: 36px;
 }
+
+.sec-3-container .food-images img {
+    margin: 40px;
+    height: 300px;
+    width: 300px;
+}
+
 
 .sec-4 {
     display: flex;
