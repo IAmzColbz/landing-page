@@ -147,7 +147,9 @@ ul {
     display: flex;
     max-width: 1200px;
     margin: 100px;
-    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .sec-3-container h3 {
@@ -156,6 +158,12 @@ ul {
     flex: 1;
     color: #1f2937;
     font-size: 36px;
+}
+
+.food-images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .sec-3-container .food-images img {
